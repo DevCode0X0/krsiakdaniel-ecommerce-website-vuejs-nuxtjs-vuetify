@@ -4,7 +4,7 @@
     <HomeCarousel :sale_items="sale_items" />
     <v-row class="mb-8" />
     <v-container>
-      <h1 class="text-md-h4 text-h6 mb-4">Check out these items</h1>
+      <h1 class="text-md-h4 text-h6 mb-4">Check out these items</h1>testxx
       <ProductSlider :products="products" />
       <v-row class="mb-8" />
       <Newsletter />
@@ -13,6 +13,7 @@
     <ScrollTop />
   </div>
 </template>
+
 
 <script>
 import HomeCarousel from '../components/HomeCarousel.vue';
